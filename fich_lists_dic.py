@@ -11,5 +11,6 @@ fich.close()
 
 try:
 	print('root', userShells['root'])
+	print('imaginario', userShells['imaginario'])
 except KeyError:
 	print("Introduce un usuario existente")
